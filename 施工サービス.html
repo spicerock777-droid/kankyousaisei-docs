@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>施工サービスメニュー</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+@page { size: A4 portrait; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  background: #e8e2d8;
+  color: #1e2d1e;
+  line-height: 1.6;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+:root {
+  --f900: #1a3020;
+  --f800: #24452e;
+  --f700: #2f5c3c;
+  --f600: #3a744b;
+  --f500: #4d9060;
+  --f400: #6aab7c;
+  --f300: #8ec49e;
+  --f200: #b8dcc4;
+  --f50:  #f2f9f4;
+  --e700: #6b4c2a;
+  --e500: #9b7b4a;
+  --e300: #c9aa80;
+  --e100: #f0e6d0;
+  --sand: #fdf8f0;
+  --line: #d8d0c4;
+}
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 10mm auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+}
+@media print {
+  body { background: white; }
+  .page { margin: 0; box-shadow: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ヘッダー -->
+  <div style="background:var(--f900); color:white; padding:10mm 14mm 9mm;">
+    <div style="font-size:7pt; letter-spacing:0.2em; color:var(--f300); margin-bottom:2mm;">環境整備事業内容</div>
+    <div style="font-family:'Shippori Mincho',serif; font-size:22pt; font-weight:800; line-height:1.2; margin-bottom:3mm;">施工サービスメニュー</div>
+    <div style="font-size:9pt; color:var(--f200); line-height:1.8;">
+      水・土・植生の流れを読み、現場に合った手を入れます。<br>
+      施工記録・観察レポート込み。材料費は別途実費。
+    </div>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <div style="flex:1; padding:9mm 14mm; display:flex; flex-direction:column; gap:5mm;">
+
+    <!-- サービス7項目 -->
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:3.5mm;">
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🌿</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">環境整備</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          草刈り・地表流れの整理。現状の観察から始め、場の流れを読みながら手を入れます。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🌾</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">藪払い</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          繁茂した竹・低木・つる植物を整理。光と風の通り道をつくり直します。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">💧</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">水脈整備</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          雨水・地下水の流れを読み、詰まりや滞りを解消。溝・浸透升・素掘りで水みちを回復します。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">⛏️</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">造成・石積み</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          法面・段々・石積みによる土留め。重機に頼らない伝統土木で、長期間崩れにくい構造をつくります。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🌲</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">伐採・剪定</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          樹形・光・通風を読んだ剪定。場の状態を見ながら、残す木・切る木を判断します。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🌱</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">植栽</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          土質・水はけ・日当たりに合わせた植え付け。在来種・食用植物の提案も可能です。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🏔️</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">森の山道づくり</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          人が歩ける山道・踏み跡を整備。水の流れを妨げず、斜面を傷めない動線をつくります。
+        </div>
+      </div>
+
+      <div style="background:var(--sand); border:1.5px solid var(--f200); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">🌳</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">森整備</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          密度・採光・風通しを読んだ間伐・下草整理。森全体の循環が回り始めることを目標に手を入れます。
+        </div>
+      </div>
+
+      <div style="background:var(--f50); border:1.5px solid var(--f300); border-radius:6px; padding:4.5mm 5mm;">
+        <div style="font-size:15pt; margin-bottom:2mm;">📓</div>
+        <div style="font-size:9pt; font-weight:700; color:var(--f800); margin-bottom:1.5mm;">観察ログ</div>
+        <div style="font-size:7pt; color:#374151; line-height:1.9;">
+          「場の履歴」として毎回記録し共有します。
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- 施工記録・レポートについて -->
+    <div style="background:var(--sand); border:1.5px solid var(--line); border-radius:6px; padding:5mm 6mm;">
+      <div style="font-size:8.5pt; font-weight:700; color:var(--f800); margin-bottom:2.5mm;">📋 施工記録・観察レポートについて</div>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:3mm;">
+        <div style="background:white; border:1px solid var(--f200); border-radius:4px; padding:3mm; text-align:center;">
+          <div style="font-size:14pt; margin-bottom:1.5mm;">📸</div>
+          <div style="font-size:6.5pt; font-weight:700; color:var(--f800); margin-bottom:1mm;">施工前後の写真</div>
+          <div style="font-size:6pt; color:#6b7280; line-height:1.6;">現状を複数アングルで記録</div>
+        </div>
+        <div style="background:white; border:1px solid var(--f200); border-radius:4px; padding:3mm; text-align:center;">
+          <div style="font-size:14pt; margin-bottom:1.5mm;">🔧</div>
+          <div style="font-size:6.5pt; font-weight:700; color:var(--f800); margin-bottom:1mm;">作業内容メモ</div>
+          <div style="font-size:6pt; color:#6b7280; line-height:1.6;">何を・どこを・どう手入れしたか</div>
+        </div>
+        <div style="background:white; border:1px solid var(--f200); border-radius:4px; padding:3mm; text-align:center;">
+          <div style="font-size:14pt; margin-bottom:1.5mm;">🌱</div>
+          <div style="font-size:6.5pt; font-weight:700; color:var(--f800); margin-bottom:1mm;">観察メモ</div>
+          <div style="font-size:6pt; color:#6b7280; line-height:1.6;">土・水・植生の状態の変化</div>
+        </div>
+        <div style="background:white; border:1px solid var(--f200); border-radius:4px; padding:3mm; text-align:center;">
+          <div style="font-size:14pt; margin-bottom:1.5mm;">📝</div>
+          <div style="font-size:6.5pt; font-weight:700; color:var(--f800); margin-bottom:1mm;">次回の提案</div>
+          <div style="font-size:6pt; color:#6b7280; line-height:1.6;">次に手を入れる箇所・時期</div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- フッター -->
+  <div style="border-top:1px solid var(--line); padding:3mm 14mm; display:flex; justify-content:space-between; align-items:center;">
+    <div style="font-size:7.5pt; font-weight:700; color:var(--f600);">環境整備事業内容</div>
+    <div style="font-size:6.5pt; color:#9ca3af;">料金はすべて税込表示　2026年5月現在</div>
+  </div>
+
+</div>
+</body>
+</html>
